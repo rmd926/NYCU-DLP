@@ -3,7 +3,6 @@
 import matplotlib.pyplot as plt
 
 def plot_metrics(train_losses, valid_losses, train_accuracies, valid_accuracies):
-    """绘制训练和验证的损失及准确率图表"""
     epochs = range(1, len(train_losses) + 1)
     plt.figure(figsize=(14, 7))
     
